@@ -288,7 +288,7 @@ export default function ChatWidget({ student }: ChatWidgetProps) {
                                 >→</button>
                             </div>
                             <div style={{ textAlign: 'center', fontSize: '10px', color: 'rgba(248,250,252,0.2)', marginTop: '6px' }}>
-                                {messageCount}/20 messages · Powered by Google Gemini
+                                {messageCount}/20 messages · Powered by Llama 3.1
                             </div>
                         </div>
                     </div>
