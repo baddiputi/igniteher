@@ -1,4 +1,7 @@
+export const dynamic = 'force-dynamic'
+
 import { redirect } from 'next/navigation'
+
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import { getCareerRecommendations } from '@/lib/career-engine'

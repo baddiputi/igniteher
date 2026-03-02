@@ -1,7 +1,8 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Disable static generation for all pages - all pages are dynamic (auth-dependent)
+  output: 'standalone',
 };
 
 export default nextConfig;

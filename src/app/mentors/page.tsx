@@ -1,4 +1,7 @@
+export const dynamic = 'force-dynamic'
+
 import { redirect } from 'next/navigation'
+
 import { createClient } from '@/lib/supabase/server'
 import { getTopMentors } from '@/lib/mentor-matching'
 import { Student, Mentor } from '@/lib/types'
